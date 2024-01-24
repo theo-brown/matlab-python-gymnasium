@@ -1,0 +1,11 @@
+name: matlab-gymnasium
+dependencies:
+  - "python>=3.9,<3.10"
+  - gymnasium
+  - pre-commit
+  - black
+  - flake8
+  - matplotlib
+  - pip
+  - pip:
+    - matlabengine==23.2.1
